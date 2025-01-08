@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+    body{
+        font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4ba5f3;
+            color: #333;
+    }
+        h1{
+            text-align: center;
+            font-size: 50px;
+            border-radius: 5pxpx;
+            background-color:#ccecf4;
+            padding: 5px;
+            margin-top: auto;
+        }
+        form{
+            text-align: center;
+            justify-content: center;
+            background-color: #ccecf4; padding: 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.1); width: 350px; margin:auto;
+            height: 450px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        input{
+            text-align: center;
+            padding: 5px;
+            border: px;
+            border-radius: 20px;
+            margin: 5px;
+            width: 300px;
+            height: 30px;
+            cursor: pointer;
+        }
+        button{
+            border: #4ba5f3;
+            text-align: center;
+            font-size: 25px;
+            border-radius: 15px;
+            background-color: #4ba5f3;
+            width: 150px;
+            height: 35px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: aqua;
+        }
+        p{
+            font-size: 27px;
+            border: 2%;
+            border-radius: 30px;
+            background-color: #4ba5f3;
+            height: 67px;
+            width: auto;
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    <h1><strong>CarGo Rentals</strong></h1>
+    <br><br><br>
+    <form id="Login">
+        <p>SIGN UP TO CARGO RENTALS</p>
+        <label for="Name"><b>ENTER YOUR NAME:</b></label>
+        <input type="text" name="Name" id="Name" placeholder="Enter Your Name">
+        <label for="Email"><b>EMAIL ADDRESS:</b></label>
+        <input type="email" name="Email" id="Email" placeholder="Enter Your Email">
+        <label for="Password"><b>PASSWORD:</b></label>
+        <input type="password" name="Password" id="Password" placeholder="Enter Your Password" required>
+        <label for="CONFIRM PASSWORD"><b>CONFIRM PASSWORD:</b></label>
+        <input type="password" name="Password" id="Password" placeholder="Enter Your Confirm Password" required>
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+</html>

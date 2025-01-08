@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+    body{
+        font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4ba5f3;
+            color: #333;
+    }
+        h1{
+            text-align: center;
+            font-size: 50px;
+            border-radius: 5pxpx;
+            background-color:#ccecf4;
+            padding: 5px;
+            margin-top: auto;
+        }
+        form{
+            text-align: center;
+            justify-content: center;
+            background-color: #ccecf4; padding: 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.1); width: 350px; margin:auto;
+            height: 450px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        input{
+            text-align: center;
+            padding: 5px;
+            border: px;
+            border-radius: 20px;
+            margin: 5px;
+            width: 300px;
+            height: 30px;
+            cursor: pointer;
+        }
+        button{
+            border: #4ba5f3;
+            text-align: center;
+            font-size: 25px;
+            border-radius: 15px;
+            background-color: #4ba5f3;
+            width: 100px;
+            height: 35px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: aqua;
+        }
+        p{
+            font-size: 27px;
+            border: 2%;
+            border-radius: 30px;
+            background-color: #4ba5f3;
+            height: 67px;
+            width: auto;
+            color: azure;
+        }
+        nav {
+            margin-top: -7%;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+            background-color: hsl(205, 87%, 94%);
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            /* margin: 0 1rem; */
+            padding: 0.5rem;
+            border-radius: 4px;
+            transition: background 0.3s, color 0.3s;
+            font-size: larger;
+        }
+        nav a:hover {
+            background-color: #1E88E5;
+            color: #f0f8ff;
+        }
+    </style>
+</head>
+<body>
+    <h1><strong>CarGo Rentals</strong></h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+        <a href="Login.html">Login</a>
+        <a href="Signup.html">Sign Up</a>
+    </nav>
+    <br><br><br>
+    <form id="Login">
+        <p>LOGIN TO CARGO RENTALS</p>
+        <br><br>
+        <label for="Email"><b>EMAIL ADDRESS:</b></label>
+        <input type="email" name="Email" id="Email" placeholder="Enter Your Email">
+        <br><br><b
+        <label for="Password"><b>PASSWORD:</b></label>
+        <input type="text" name="Password" id="Password" placeholder="Enter Your Password" required>
+        <a href="forget.html">Forget Password?</a>
+        <br><br><br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
